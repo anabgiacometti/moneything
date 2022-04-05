@@ -1,0 +1,12 @@
+from enum import Enum
+
+
+class PaymentMehtod(Enum):
+    DEBIT = "DEBIT"
+    CREDIT = "CREDIT"
+    TRANSFER = "TRANSFER"
+    BANK_SLIP = "BANK_SLIP"
+    PIX = "PIX"
+    CHARGEBACK = "CHARGEBACK"
+    CREDIT_CARD_LIMIT = "CREDIT_CARD_LIMIT"  # NUBANK
+    ADJUSTMENT = "ADJUSTMENT"
