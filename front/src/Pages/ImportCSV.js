@@ -1,22 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import PageBase from "../Components/PageBase/Index";
 
-const Import = () => {
-  return (
-    <div>
-      <h1>Import</h1>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Sobre</Link>
-          </li>
-          <li>
-            <Link to="/dashboard">Usuario</Link>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  );
+const ImportCSV = () => {
+  return <PageBase />;
 };
 
-export default Import;
+export default ImportCSV;

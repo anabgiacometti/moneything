@@ -5,20 +5,15 @@ export const Container = styled.div`
   height: 100vh;
   color: white;
   grid-template-rows: 0.075fr 1fr;
-  grid-template-columns: 0.2fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-areas:
-    "nav nav"
-    "sidebar content";
+    "nav"
+    "content";
   text-align: center;
 `;
 
-export const SideBar = styled.div`
-  background: #9aaab7;
-  grid-area: sidebar;
-`;
-
 export const ContentBox = styled.div`
-  background: #a6b8b9;
+  background: white;
   grid-area: content;
 `;
 

@@ -1,7 +1,6 @@
 import { Route, Routes, BrowserRouter } from "react-router-dom";
-import Home from "./Pages/Home";
 import Dashboard from "./Pages/Dashboard";
-import Category from "./Pages/Category";
+import ImportCSV from "./Pages/ImportCSV";
 
 function App() {
   return (
@@ -11,8 +10,8 @@ function App() {
         <Link to="/category">About</Link>
       </div> */}
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/category" element={<Category />} />
+        <Route path="/" element={<Dashboard />} />
+        <Route path="/import-csv" element={<ImportCSV />} />
       </Routes>
     </BrowserRouter>
   );

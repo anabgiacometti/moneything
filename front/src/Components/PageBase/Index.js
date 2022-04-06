@@ -8,11 +8,10 @@ import {
   ContentBox,
 } from "./Styles.js";
 
-const PageBaseConfig = () => {
+const PageBase = () => {
   return (
     <Container>
       <NavBar>NavBar</NavBar>
-      <SideBar>SideBar</SideBar>
       <ContentBox>
         <Content>Content</Content>
       </ContentBox>
@@ -20,4 +19,4 @@ const PageBaseConfig = () => {
   );
 };
 
-export default PageBaseConfig;
+export default PageBase;
