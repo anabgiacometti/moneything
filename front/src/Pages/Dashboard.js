@@ -4,7 +4,7 @@ import PageBase from "../Components/PageBase/Index";
 
 const Dashboard = () => {
   return (
-    <PageBase />
+    <h1>Dashboard</h1>
   );
 };
 

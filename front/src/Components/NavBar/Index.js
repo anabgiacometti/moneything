@@ -31,6 +31,7 @@ const NavBar = () => {
             <FiUser style={{ marginRight: "5px" }} />
             Minha Conta
           </NavLink>
+          <hr />
           <NavLink href="/import-csv">
             <FiLogOut style={{ marginRight: "5px" }} />
             Sair

@@ -23,7 +23,7 @@ class TransactionIn(TransactionBase):
 class TransactionImport(TransactionBase):
     title: Optional[Dict]
     category: Optional[Dict]
-    duplicated: bool
+    is_duplicated: bool
 
 
 class TransactionDB(TransactionBase):

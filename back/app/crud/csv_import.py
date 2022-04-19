@@ -30,6 +30,7 @@ class CVSImport:
 
     async def get_preview(self):
         df = await self.get_data()
+        print('----------------------')
         return {
             "origin": self.origin,
             "preview": df.to_dict(orient="records"),
